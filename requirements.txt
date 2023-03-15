@@ -1,0 +1,5 @@
+aiogram
+requests
+lxml
+art
+bs4
