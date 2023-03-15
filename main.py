@@ -18,7 +18,7 @@ db = bd.Data_base_user('Data_base_user.db')
 
 PRICE = tp.LabeledPrice(label="Activation for 1 month", amount=5*100)
 
-logging.basicConfig(level=logging.INFO)
+logging.basicConfig(level=logging.DEBUG)
 
 
 class SendMessage(StatesGroup):
